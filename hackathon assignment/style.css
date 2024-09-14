@@ -1,0 +1,59 @@
+#home{display: flex;}
+/* body{ background: linear-gradient(135deg, rgba(3, 10, 101, 0.8), rgba(131, 0, 7, 0.8), rgb(37, 201, 255));} */
+body{height: 100vh;
+ 
+ color: rgb(238, 9, 169);
+width: 100%;}
+/* background:  linear-gradient(135deg, rgb(38, 146, 182), rgb(24, 24, 173), rgb(37, 201, 255));} */
+
+
+
+
+
+  .heading{margin-left: 250px;}
+h1{font-size: 50px;margin-left: 200px;margin-top: 100px; font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    }
+h2{font-size: 40px;margin-left: 90px;
+}
+p{font-size: 25px;text-align: center;}
+img{position: absolute;
+right: 40px;}
+li{font-size: 20px;margin-left: 100px;line-height: 30px;font-weight: bold;color:rgb(172, 17, 97);}
+button{font-size: 20px;
+  cursor: pointer;
+  
+  
+  height: 50px;width: 300px;background-color:rgb(202, 44, 70);border: transparent;font-weight: bold;border-radius: 40px;text-align: center;margin-left: 300px;margin-top: 20px;color: white;
+
+}
+
+.shaking-button{animation:shake 0.3s linear infinite;}
+    @keyframes shake{0%{transform:translateX(0);}
+20%{transform: translateX(-2px);}
+40%
+{
+    transform: translateX(-2px);
+}
+
+60%{transform: translateX(-2px);}
+80%
+{
+    transform: translateX(2px);
+}
+100%
+{
+    transform: translateX(0);
+}
+}
+@media (max-width: 1400px) {
+    img{width: 500px;}}
+    @media (max-width: 1300px) {
+        img{width: 300px;}}
+        @media (max-width: 1110px) {
+            img{width: 300px;}}
+            @media (max-width: 1120px) {
+                img{width: 300px;}}
+                @media (max-width: 1000px) {
+                    img{display: none;}}
