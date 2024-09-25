@@ -39,7 +39,7 @@ window.addEventListener('load', () => {
       console.log("username: ", username);
       
       //  Generate username from the name
-      const baseUrl = 'http://127.0.0.1:5500/simple_layout/simpleLayout.html'; // Your Vercel deployment URL
+      const baseUrl = 'https://interactive-resume-builder-l9os.vercel.app/simple_layout/simpleLayout.html'; // Your Vercel deployment URL
       const uniqueResumeUrl = `${baseUrl}?/${username}`; // Create unique URL
 
       // // Set the resume link in the DOM
